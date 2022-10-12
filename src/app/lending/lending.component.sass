@@ -1,0 +1,59 @@
+@import '../../styles.sass'
+
+.lending
+  margin-top: 20px
+  height: 690px
+  display: flex
+  width: 100%
+  justify-content: space-between
+  &__content
+    width: 49.4%
+    height: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    span
+      color: #FFFFFF
+      font-size: 48px
+      z-index: 2
+    &:first-child
+      background: $GLOBAL_COLOR_BLUE
+    &:last-child
+      background: $GLOBAL_COLOR_LIGHT_BLUE
+    .content__button_aster_right
+      background: $GLOBAL_COLOR_BLUE
+    div
+      border-radius: 50%
+      height: 45px
+      width: 45px
+      display: flex
+      justify-content: center
+      align-items: center
+      background: #FFFFFF
+      z-index: 2
+      &:hover
+        cursor: pointer
+        height: 50px
+        width: 50px
+      img
+        height: 16px
+  &__sofa
+    position: absolute
+    width: 80%
+    left: 10%
+    right: 10%
+    display: flex
+    justify-content: center
+    top: 550px
+    img
+      &:first-child
+        height: 150px
+        position: absolute
+        left: 11%
+        top: 170px
+      &:last-child
+        height: 130px
+        position: absolute
+        right: 11%
+        top: 170px

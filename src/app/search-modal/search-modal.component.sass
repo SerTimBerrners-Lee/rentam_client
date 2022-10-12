@@ -1,0 +1,39 @@
+@import '../../sass/variables.sass'
+
+.modal
+	&__search-content
+		z-index: 1
+		display: flex
+		justify-content: center 
+		align-items: center
+		width: fit-content
+		background: white
+		top: 20%
+		position: fixed
+		flex-direction: column
+		border-radius: 0px 0px 6px 6px
+	&__find_content
+		width: 100%
+		border-radius: 0px 0px 10px 10px
+		button
+			width: 100%
+			border-radius: 0px 0px 3px 3px
+		div
+			display: flex
+			justify-content: space-between
+			align-items: center
+			padding: 10px
+			height: 50px
+			img
+				max-width: 10%
+				height: 100%
+			p
+				width: 75%
+				overflow: hidden
+			strong
+				width: 15%
+.select_item
+	cursor: pointer
+	&:hover
+		background: $SELECT_HOVER_COLOR
+

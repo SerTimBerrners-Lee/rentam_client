@@ -1,0 +1,115 @@
+@import './sass/modal.sass'
+@import './sass/variables.sass'
+
+@font-face 
+  font-family: montserratAlternaties
+  src: url(assets/font/MontserratAlternates-Light.otf) format("opentype")
+@font-face 
+  font-family: montserratAlternatiesBold
+  src: url(assets/font/MontserratAlternates-Bold.otf) format("opentype")
+
+*
+  font-family: 'montserratAlternatiesBold', 'arial', 'sens-serif'
+a
+  color: $link
+  text-decoration: none
+  font-weight: bold
+  font-size: 16px
+body 
+  background: rgb(230 230 230 / 34%)
+
+.btn_light
+  background: $GLOBAL_COLOR_LIGHT_BLUE
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7)
+  color: #FFFFFF
+.btn_black
+  background: $GLOBAL_COLOR_BLUE
+  color: #FFFFFF
+.btn
+  border: none
+  border-radius: 3px
+  cursor: pointer
+  padding: 12px
+  width: 103.5%
+
+.input
+  min-height: 34px
+  width: 100%
+
+.center
+  text-align: center
+  justify-content: center
+  align-items: center
+
+.form_group
+  display: flex
+
+.column
+  flex-direction: column
+
+.line_while
+  content: url("./assets/icons/line_while.png")
+
+.line_blue
+  content: url("./assets/icons/line_blue.png")
+
+.inform
+  font-size: 12px
+  color: #e1d8d8
+
+.inform_black
+  font-size: 12px
+  color: #585858
+
+.btn_small
+  padding: 8px
+
+h1
+  font-size: 42px
+  margin: 5px
+
+.mt-10
+  margin-top: 10px
+
+.mt-20
+  margin-top: 20px
+
+.mt-30
+  margin-top: 30px
+  
+.mt-40
+  margin-top: 40px
+
+.mt-50
+  margin-top: 50px
+
+.mt-60
+  margin-top: 60px
+
+.mt-70
+  margin-top: 70px
+
+.mt-80
+  margin-top: 80px
+
+.mt-90
+  margin-top: 90px
+
+.mt-100
+  margin-top: 100px
+
+.color-w
+  color: white
+
+.line_gray
+  height: 2px
+  background: #e8e8e8
+  text-decoration: line-through
+
+.output
+  background: none
+  border: 2px solid rgba(27, 28, 55, 0.08)
+  border-radius: 10px
+  &:hover
+    background: rgba(27, 28, 55, 0.08)
+

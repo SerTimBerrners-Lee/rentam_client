@@ -1,0 +1,17 @@
+<div *ngIf="authModal" class='modal'>
+	<div
+	class='modal__background'
+	(click)="close()"></div>
+	<div class="modal__authcontent">
+		<div class="form_group column center">
+			<h2>Авторизация</h2>
+			<br class='line_while' />
+			<input type="tel" class='input center' placeholder='Номер телефона'>
+			<input type="text" class="input center" placeholder="--- ---">
+			<button class='btn_light btn' (click)="close()">Войти</button>
+			<p class="inform">
+				Нажимай кнопку "Войти", даю соглашение на обработку персональных данных
+			</p>
+		</div>
+	</div>
+</div>

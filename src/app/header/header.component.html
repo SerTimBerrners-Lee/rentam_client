@@ -1,0 +1,23 @@
+<div class='header'>
+  <div></div>
+  <div (click)="catalogModal = true">Каталог</div>
+  <div>Поиск</div>
+  <div routerLink="/inform-page">О Сервисе</div>
+  <div (click)="authModal = true">Авторизация</div>
+  <div></div>
+</div>
+
+<div (click)="searchModal()">
+  <app-search></app-search>
+</div>
+<app-auth-modal
+  [authModal]="authModal"
+  (closeAuthModal)="closeAuthModal()"></app-auth-modal>
+<app-catalog-modal
+  [showModal]="catalogModal"
+  (closeCatalogModal)='closeCatalogModal()'
+></app-catalog-modal>
+<app-search-modal
+  [showModal]='searchModalOpen'
+  (closeSearchModal)='closeSearchModal()'
+></app-search-modal>

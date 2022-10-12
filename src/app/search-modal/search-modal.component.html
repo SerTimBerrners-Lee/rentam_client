@@ -1,0 +1,31 @@
+<div *ngIf="showModal" class="modal">
+	<div
+		class='modal__background'
+		(click)="close()"></div>
+	<div class='modal__search-content'>
+		<app-search></app-search>
+		<div class='modal__find_content'>
+			<div class='select_item'>
+				<img src="../../assets/images/search_modal/examples_1.png" alt="">
+				<p>Аккумулятор для телефона</p>
+				<strong>от 7,5 руб</strong>
+			</div>
+			<div class='select_item'>
+				<img src="../../assets/images/search_modal/examples_2.png" alt="">
+				<p>Аккумуляторная дрель шуруповерт</p>
+				<strong>от 32,3 руб</strong>
+			</div>
+			<div class='select_item'>
+				<img src="../../assets/images/search_modal/examples_3.png" alt="">
+				<p>Аккумулятор для телефона</p>
+				<strong>от 4 руб</strong>
+			</div>
+			<div class='select_item'>
+				<img src="../../assets/images/search_modal/examples_1.png" alt="">
+				<p>Блок резервного питания UF-670</p>
+				<strong>от 3,5 руб</strong>
+			</div>
+			<button class='btn btn_black'>Все результаты</button>
+		</div>
+	</div>
+</div>
